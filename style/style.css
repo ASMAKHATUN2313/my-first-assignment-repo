@@ -6,16 +6,18 @@
      font-family: 'Inter', sans-serif;
      margin: 0px;
      padding: 0px;
+     width: 80%;
      justify-content: center;
  }
 
  .banner-container {
-     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-     background-image: url('../resources/Banner\ Image.png');
+     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
      background-repeat: no-repeat;
      text-align: center;
-     margin: 0px 125px;
      border-radius: 16px;
+     background-size: cover;
+     /* margin: 0px 120px; */
+
 
  }
 
@@ -26,7 +28,7 @@
  .banner-header {
      font-size: 32px;
      padding-top: 100px;
-     padding-left: ;
+
 
 
  }
@@ -64,7 +66,7 @@
  }
 
  .s3 {
-     background-image: url('../resources/Vectorrr.png');
+     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
      background-repeat: no-repeat;
      text-align: left;
      margin: 50px 125px;
@@ -80,7 +82,7 @@
      font-size: 50px;
      padding-left: 50px;
      padding-top: 50px;
-     padding-right:450px;
+     padding-right: 450px;
  }
 
  .s3-descriptiion {
@@ -101,19 +103,99 @@
      padding-bottom: 100px;
      padding-top: 80px;
  }
- .s4{
-    text-align: center;
-    padding-top: 50px;
+
+ .s4 {
+     text-align: center;
+     padding-top: 50px;
+     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+     margin: 50px 125px;
  }
- .color{
-    color: #F00;
+
+ .color {
+     color: #F00;
  }
- .s4-btn{
-border-radius: 8px;
-background: #F00;
-padding: 16px 32px;
-color: #FFF;
-font-family: Inter;
-font-size: 15px;
-border-style: none;
+
+ .s4-btn {
+     border-radius: 8px;
+     background: #F00;
+     padding: 16px 32px;
+     color: #FFF;
+     font-family: Inter;
+     font-size: 15px;
+     border-style: none;
+
+ }
+
+ .s5 {
+     display: flex;
+     justify-content: space-between;
+     margin: 70px 125px;
+     gap: 20px;
+ }
+
+ .s5-header {
+     color: #F00;
+     font-family: Inter;
+ }
+
+ .s5-title {
+     color: #070211;
+     font-family: Merriweather;
+     font-size: 48px;
+ }
+
+ .s5-description {
+     color: rgba(7, 2, 17, 0.60);
+     font-family: Inter;
+     /* font-size: 10px; */
+ }
+
+ .s5-h3 {
+     color: #F00;
+     font-family: Inter;
+     font-size: 48px;
+     font-weight: 700;
+ }
+
+ .s5-div1 {
+     padding-right: 20px;
+     text-align: left;
+ }
+
+ .s5-img {
+     padding-right: 50px;
+     padding-right: 80px;
+ }
+
+ .s5-div3 {
+     padding-right: 100px;
+     text-align: left;
+ }
+
+ .s6 {
+     text-align: center;
+     margin: 50px 125px;
+     padding: 50px 80px;
+ }
+
+ .s6-h1 {
+     color: #F00;
+     font-family: Merriweather;
+     font-size: 50px;
+
+ }
+
+ .s6-h4 {
+     color: #070211;
+     font-family: Inter;
+     font-size: 24px;
+ }
+
+ .sale {
+     color: #070211;
+     font-family: Merriweather;
+ }
+
+ .discount { 
+    
  }
