@@ -1,9 +1,7 @@
  <style>@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
- </style><syle>@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700;800&display=swap');
 
  </style>* {
      font-family: 'Merriweather', serif;
-     font-family: 'Inter', sans-serif;
      margin: 0px;
      padding: 0px;
      width: 80%;
@@ -50,14 +48,12 @@
 
  .s1-h1 {
      color: #F00;
-     font-family: Inter;
      font-size: 50px;
      margin-bottom: 40px;
  }
 
  .s1-h5 {
      color: #F00;
-     font-family: Inter;
      font-size: 20px;
  }
 
@@ -88,7 +84,6 @@
 
  .s3-descriptiion {
      color: rgba(255, 255, 255, 0.80);
-     font-family: Inter;
      padding-left: 50px;
      padding-top: 0px;
      padding-right: 500px;
@@ -121,7 +116,6 @@
      background: #F00;
      padding: 16px 32px;
      color: #FFF;
-     font-family: Inter;
      font-size: 15px;
      border-style: none;
 
@@ -137,18 +131,15 @@
 
  .s5-header {
      color: #F00;
-     font-family: Inter;
  }
 
  .s5-title {
      color: #070211;
-     font-family: Merriweather;
      font-size: 48px;
  }
 
  .s5-description {
      color: rgba(7, 2, 17, 0.60);
-     font-family: Inter;
      /* font-size: 10px; */
  }
 
@@ -180,6 +171,18 @@
      text-align: left;
  }
 
+ .container{
+        background-image:url('../resources/Group\ 44.png') ,url('../resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center, right;
+    margin-right: 200px;
+    margin-left: 100px;
+    
+    }
+    
+
+ 
+
  .s6 {
      text-align: center;
      margin: 50px 125px;
@@ -188,20 +191,17 @@
 
  .s6-h1 {
      color: #F00;
-     font-family: Merriweather;
      font-size: 50px;
 
  }
 
  .s6-h4 {
      color: #070211;
-     font-family: Inter;
      font-size: 24px;
  }
 
  .sale {
      color: #070211;
-     font-family: Merriweather;
  }
 
  .discount {}
@@ -218,17 +218,16 @@
 
  .s7-header {
      color: #070211;
-     font-family: Merriweather;
  }
 
- .s7-img {
+ /* .img1{
      cursor: pointer;
      transition: 1s;
  }
 
  .img1:hover {
      opacity: 70%;
- }
+ } */
 
  .row {
      display: flex;
@@ -250,6 +249,9 @@
      padding-bottom: 150px;
 
  }
+ .s8-form{
+    display: flex;
+ }
 
  .email {
      border-radius: 50px;
@@ -268,38 +270,39 @@
      text-align: center;
      font-size: 18px;
      font-weight: 600;
- }
- .footer-basic{
-    background-color: #070211;
-    padding:50px 125px;
-    color: #FFF;
-
- }
- .footer-style{
-   
-    display: flex;
-    justify-content:space-between;
- }
- .last{
-    display: flex;
-    gap: 10px;
-    
+     margin-left:-6px;
  }
 
- 
- .footer-images{
-    padding-top:50px ;
-    padding-bottom: 50px;
-    padding-left:500px ;
+ .footer-basic {
+     background-color: #070211;
+     padding: 50px 125px;
+     color: #FFF;
 
  }
- .copy-right{
-    display: flex;
-    justify-content: space-between;
-    padding:50px;
-    
- }
- 
- 
- 
 
+ .footer-style {
+
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .last {
+     display: flex;
+     gap: 10px;
+
+ }
+
+
+ .footer-images {
+     padding-top: 50px;
+     padding-bottom: 50px;
+     padding-left: 500px;
+
+ }
+
+ .copy-right {
+     display: flex;
+     justify-content: space-between;
+     padding: 50px;
+
+ }
