@@ -1,6 +1,8 @@
- <style>@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+/* common section  */
+<style>@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
- </style>* {
+ </style>
+ * {
      font-family: 'Merriweather', serif;
      margin: 0px;
      padding: 0px;
@@ -8,15 +10,17 @@
      justify-content: center;
      align-items: center;
  }
+ /* header style  */
 
  .banner-container {
      background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
+     background-position: center;
      background-repeat: no-repeat;
      text-align: center;
      border-radius: 16px;
-     /* background-size: cover; */
-     margin: 0px 120px;
-
+     background-size: cover;
+     margin-right: 100px;
+     margin-left: 100px;
 
  }
 
@@ -24,32 +28,34 @@
      color: #fff;
  }
 
- .banner-header {
+  .banner-header { 
      font-size: 32px;
-     padding-top: 100px;
+     padding-top: 100px; 
 
 
 
  }
 
- .banner-title {
+  .banner-title {
      font-size: 52px;
-     padding-left: 450px;
      padding-bottom: 380px;
-     padding-right: 450px;
-     line-height: 95px;
+     padding-left: 300px;
+    padding-right: 300px;
+      line-height: 95px; 
 
  }
+ /* 60% discount section style */
 
  .section-1 {
      text-align: center;
-
+     margin-top: 50px;
  }
 
  .s1-h1 {
      color: #F00;
      font-size: 50px;
      margin-bottom: 40px;
+    
  }
 
  .s1-h5 {
@@ -61,17 +67,19 @@
      color: #070211;
      font-size: 35px;
  }
+ /* welcome to party style  */
 
  .s3 {
      background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
      background-repeat: no-repeat;
      text-align: left;
-     margin: 50px 125px;
+     margin:50px 100px;
  }
 
  .s3-content {
      display: flex;
      justify-content: space-between;
+
  }
 
  .s3-header {
@@ -99,12 +107,13 @@
      padding-bottom: 100px;
      padding-top: 80px;
  }
+ /* place date and time section style  */
 
  .s4 {
      text-align: center;
      padding-top: 50px;
      background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-     margin: 50px 125px;
+     margin: 50px 100px;
  }
 
  .color {
@@ -120,13 +129,17 @@
      border-style: none;
 
  }
+ /* coming soon 2024 section style   */
 
  .s5 {
      display: flex;
      justify-content: space-between;
      align-items: center;
-     margin: 70px 125px;
-     gap: 20px;
+     gap:50px;
+     margin-top:50px ;
+     margin-left:100px ;
+     margin-right:100px ;
+     /* margin-bottom: ; */
  }
 
  .s5-header {
@@ -140,18 +153,15 @@
 
  .s5-description {
      color: rgba(7, 2, 17, 0.60);
-     /* font-size: 10px; */
  }
 
  .s5-h3 {
      color: #F00;
-     font-family: Inter;
      font-size: 48px;
-     font-weight: 700;
  }
 
  .s5-div1 {
-     padding-right: 50px;
+    padding-right: 0px;
      text-align: left;
  }
 
@@ -162,30 +172,20 @@
  }
 
  .s5-img img {
-     padding: 15px;
+     padding: 10px;
 
  }
 
  .s5-div3 {
-     padding-left: 80px;
+    padding-top: 50px;
+     padding-left: 10px;
      text-align: left;
  }
-
- .container{
-        background-image:url('../resources/Group\ 44.png') ,url('../resources/Rectangle\ 1.png');
-    background-repeat: no-repeat;
-    background-position: center, right;
-    margin-right: 200px;
-    margin-left: 100px;
+ /* Holidays sale 50% section style  */
     
-    }
-    
-
- 
-
  .s6 {
      text-align: center;
-     margin: 50px 125px;
+     margin: 50px 100px;
      padding: 50px 80px;
  }
 
@@ -203,31 +203,41 @@
  .sale {
      color: #070211;
  }
+ 
+ /* bonus section  */
+ .container{
+    background-image:url('../resources/Group\ 44.png') ,url('../resources/Rectangle\ 1.png');
+background-repeat: no-repeat;
+background-position: center, right;
+margin-right: 200px;
+margin-left: 100px;
 
- .discount {}
+}
+/* our awesome portfolio  */
 
  .s7-text {
-     margin: 50px 125px;
+     margin: 50px 100px;
      padding-right: 350px;
  }
 
  .s7-title {
      color: #F00;
-     font-family: Inter;
  }
 
  .s7-header {
      color: #070211;
  }
+ /* images section  */
 
- /* .img1{
+  .img1{
      cursor: pointer;
      transition: 1s;
+     margin-top: ;
  }
 
  .img1:hover {
      opacity: 70%;
- } */
+ } 
 
  .row {
      display: flex;
@@ -236,13 +246,14 @@
      gap: 15px;
      margin-top: 15px;
  }
+ /* subscribe section  */
 
  .s8 {
      text-align: center;
      align-content: center;
      border-radius: 16px;
      background: rgba(255, 0, 0, 0.05);
-     margin: 25px 125px;
+     margin: 25px 100px;
      padding-left: 300px;
      padding-right: 300px;
      padding-top: 70px;
@@ -272,10 +283,11 @@
      font-weight: 600;
      margin-left:-6px;
  }
+ /* footer section  */
 
  .footer-basic {
      background-color: #070211;
-     padding: 50px 125px;
+     padding: 50px 100px;
      color: #FFF;
 
  }
